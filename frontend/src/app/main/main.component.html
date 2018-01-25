@@ -1,0 +1,193 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Product List</a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true" style="color:white;"></span> Cart(0)</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="col-lg-3">
+      
+          <h1 class="my-4">Simple</h1>
+                <div class="list-group">
+                  <a href="#" class="list-group-item">Home</a>
+                  <a href="#" class="list-group-item">Accessories</a>
+                  <a href="#" class="list-group-item">Denim</a>
+                  <a href="#" class="list-group-item">Footwear</a>
+                  <a href="#" class="list-group-item">Jeans</a>
+                  <a href="#" class="list-group-item">Outerwear</a>
+                  <a href="#" class="list-group-item">Pants</a>
+                  <a href="#" class="list-group-item">Shirts</a>
+                  <a href="#" class="list-group-item">T-Shirts</a>
+                  <a href="#" class="list-group-item">Shorts</a>
+                </div>
+      
+  </div>
+
+
+  <div class="row">
+      
+                  <div class="col-lg-2 col-md-4 mb-2">
+                    <div class="card h-100" *ngFor="let e of collectionList">
+                      <a href="#"><img class="card-img-top" src="{{e.phote}}" alt=""></a>
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          <a href="#">{{e.name}}</a>
+                        </h4>
+                        <h5>{{e.price}}</h5>
+                        <p class="card-text">{{e.description}}</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-2 col-md-4 mb-2">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="http://placehold.it/200x200" alt=""></a>
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          <a href="#">Item Two</a>
+                        </h4>
+                        <h5>$24.99</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-2 col-md-4 mb-2">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="http://placehold.it/200x200" alt=""></a>
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          <a href="#">Item Three</a>
+                        </h4>
+                        <h5>$24.99</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-2 col-md-4 mb-2">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="http://placehold.it/200x200" alt=""></a>
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          <a href="#">Item Three</a>
+                        </h4>
+                        <h5>$24.99</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-2 col-md-4 mb-2">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="http://placehold.it/200x200" alt=""></a>
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          <a href="#">Item Three</a>
+                        </h4>
+                        <h5>$24.99</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-2 col-md-4 mb-2">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="http://placehold.it/200x200" alt=""></a>
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          <a href="#">Item Three</a>
+                        </h4>
+                        <h5>$24.99</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-2 col-md-4 mb-2">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="http://placehold.it/200x200" alt=""></a>
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          <a href="#">Item Three</a>
+                        </h4>
+                        <h5>$24.99</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-2 col-md-4 mb-2">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="http://placehold.it/200x200" alt=""></a>
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          <a href="#">Item Three</a>
+                        </h4>
+                        <h5>$24.99</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                      </div>
+                    </div>
+                  </div>
+
+</div>      
+
+
+
+<div class="panel-body">
+    <table class="table table-striped table-bordered">
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th></th>
+      </tr>
+      <tr *ngFor ="let e of collectionList, let i=index">
+        <td>{{e.name}}</td>
+      </tr>
+    </table>
+  </div>
